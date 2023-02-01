@@ -1,0 +1,18 @@
+package Wrappers;
+
+public class Wrappers {
+	public static void main(String[] args) {
+		
+	
+	Integer idade = 5;
+	Boolean tem = false;
+	Double valor  = 2.1;
+	
+	Integer idade2 = 5;
+	
+	int idadeint = idade2.intValue();
+	syo
+	
+	
+}
+	}

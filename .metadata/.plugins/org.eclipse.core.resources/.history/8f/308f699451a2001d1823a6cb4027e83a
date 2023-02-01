@@ -1,0 +1,18 @@
+package arrays;
+
+public class Arrays {
+	public static void main(String[] args) {
+		//declração e instanciação do array
+		double[] pesoProdutos = new double[10];
+		//atribuindo valor
+		pesoProdutos[5] = 10;
+		
+		//declarando e atribuindo
+		double[] pesoProdutos2 = {2.2 , 5 , 7 , 9};
+		
+		System.out.println(pesoProdutos[1]);
+		System.out.println(pesoProdutos[5]);
+		System.out.println(pesoProdutos2[0]);
+		System.out.println();
+	}
+}
