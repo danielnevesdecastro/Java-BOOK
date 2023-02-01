@@ -1,0 +1,14 @@
+package metodo;
+
+public class ProdutoPrincipal {
+	public static void main(String[] args) {
+		Preco preco = new Preco();
+		preco.valorCustos= 140;
+		Produto p = new Produto();
+		p.definirPreco(preco, 20, 15);
+		
+		
+		System.out.println("Preco: "+preco);
+	}	
+}
+

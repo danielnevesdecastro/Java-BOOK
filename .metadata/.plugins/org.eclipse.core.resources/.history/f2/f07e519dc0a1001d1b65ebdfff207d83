@@ -1,0 +1,13 @@
+package metodo;
+
+public class ProdutoPrincipal {
+	public static void main(String[] args) {
+		double preco = 140;
+		
+		Produto p = new Produto();
+		//so alterou valor dentor do método , foi passado por valor 
+		p.definirPreco();
+		System.out.println("Preco: "+preco);
+	}	
+}
+

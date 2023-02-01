@@ -1,0 +1,12 @@
+package classe;
+
+public class Principal {
+	public static void main(String[] args) {
+
+		Carro carro = 
+		carro = new Carro();
+		
+		carro.anoFabricacao=1992;
+		
+	}
+}

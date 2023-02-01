@@ -1,0 +1,13 @@
+package metodo;
+
+public class Paciente {
+	double peso;
+	double altura;
+
+	// Método com retorno
+	// retorna double imc ao objeto paciente 
+	double calcularIMC() {
+		double imc = peso / (altura * altura);
+		return imc;
+	}
+}

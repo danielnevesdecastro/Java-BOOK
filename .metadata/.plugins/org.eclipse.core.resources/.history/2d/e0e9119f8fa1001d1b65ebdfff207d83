@@ -1,0 +1,27 @@
+package classe;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+		//intanciação de um objeto do tipo carro
+		Carro meuCarro; //declaração de variável
+		meuCarro = new Carro(); // instância de um carro 
+		//Carro seuCarro = new Carro();
+		
+		
+		
+		meuCarro.anoFabricacao = 2021;
+		meuCarro.modelo = "PALIO";
+		//Atributo de compõe objeto;
+		
+		//ou 
+		meuCarro.dono.bairro = "gramame";
+		
+		
+		System.out.println("Modelo: "+meuCarro.modelo);
+		System.out.println("Ano: "+meuCarro.anoFabricacao);
+		System.out.println("Dono do carro: "+ meuCarro.dono.nome);
+		System.out.println("Onde mora:"+ dono.bairro);
+		
+	}
+}

@@ -1,0 +1,8 @@
+package metodo;
+
+public class Produto {
+	void definirPreco(double precoCusto) {
+		// adiciona 20% de impostos
+		precoCusto = precoCusto * 1.20;
+	}
+}

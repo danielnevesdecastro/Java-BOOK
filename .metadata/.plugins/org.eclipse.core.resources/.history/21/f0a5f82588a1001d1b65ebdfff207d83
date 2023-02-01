@@ -1,0 +1,12 @@
+package classe;
+
+public class Principal {
+	public static void main(String[] args) {
+
+		Carro meucarro; //declaração de variável
+		meucarro = new Carro(); // instância de um carro 
+		
+		meucarro.anoFabricacao=1992;
+		
+	}
+}
