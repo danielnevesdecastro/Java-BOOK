@@ -1,0 +1,18 @@
+package metodo;
+
+public class AeronavePrincipal {
+	public static void main(String[] args) {
+
+		Aeronave gol = new Aeronave();
+		gol.totalAssentos = 100;
+
+		Aeronave tam = new Aeronave();
+		tam.totalAssentos = 130;
+
+		gol.reservarAssentos(10);
+		tam.reservarAssentos(5);
+
+		System.out.println("Assentos GOL: " + gol.calcularAssentosDispo());
+		System.out.println("Assentos TAM: " + tam.calcularAssentosDispo());
+	}
+}

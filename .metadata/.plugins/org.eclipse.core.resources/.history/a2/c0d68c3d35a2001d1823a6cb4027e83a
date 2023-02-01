@@ -1,0 +1,20 @@
+package metodo;
+
+public class Aeronave {
+
+	int assentosTotal;
+	int assentosReserv;
+	//altera a variável de instância 
+	void reservarAssentos(int numeroAssentos) {
+		assentosReserv += numeroAssentos;
+	}
+	
+	int calcularAssentosDispo() {
+		return assentosTotal - assentosReserv;
+	}
+	
+	int alterarTotalAssentos (int numeroPassageiros) {
+		
+		return assentosTotal - numeroPassageiros;
+	}
+}

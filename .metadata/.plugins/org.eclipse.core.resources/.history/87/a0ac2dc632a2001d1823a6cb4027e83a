@@ -5,7 +5,6 @@ public class ProdutoPrincipal {
 		Preco preco = new Preco();
 		preco.valorCustos= 140;
 		Produto p = new Produto();
-		//aregumentor por referencia 
 		p.definirPreco(preco, 20, 15);
 		
 		

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;metodo.Principal&apos; to &apos;PacientePrincipal&apos;&#x0D;&#x0A;- Original project: &apos;POO Algaworks&apos;&#x0D;&#x0A;- Original element: &apos;metodo.Principal&apos;&#x0D;&#x0A;- Renamed element: &apos;metodo.PacientePrincipal&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Principal&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;metodo{Principal.java[Principal" matchStrategy="1" name="PacientePrincipal" qualified="false" references="true" similarDeclarations="false" stamp="1675257415575" textual="false" version="1.0"/>
+</session>

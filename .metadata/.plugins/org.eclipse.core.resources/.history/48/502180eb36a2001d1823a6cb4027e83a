@@ -1,0 +1,21 @@
+package metodo;
+
+public class Aeronave {
+
+	int totalAssentosNormais;
+	int totalAssentosEspeciais;
+	int assentosNormaisReservados;
+	int assentosEspeciaisReservados;
+
+	void reservarAssentos(int assentos) {
+		// objeto this, atribui o valor da
+				// variável local a variável de instância
+		this.assentosNormaisReservados += assentos;
+	}
+	
+	int calcularAssentosDisponiveis() {
+		return totalAssentosNormais - assentosNormaisReservados
+		+ totalAssentosEspeciais -assentosEspeciaisReservados;
+		}
+}
+	
